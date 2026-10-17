@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-slim
     strategy:
       matrix:
-        python-version: [3.13,3.9]
+        python-version: ["3.13"]
     steps:
       - uses: actions/checkout@v7
       - name: setup Python
