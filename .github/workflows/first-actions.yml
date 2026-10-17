@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: setup Python
-        uses: action/setup-python@v7
+        uses: actions/setup-python@v7
         with:
           python-version: ${{matrix.python-version}}
 
